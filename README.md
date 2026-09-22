@@ -3,15 +3,15 @@
 ## Integrantes
 
 * Juan Manuel Castro
-*
+* Juan Camilo Gomez 
 *
 
 ## Grupos asignados
 
-* 🇨🇮 Costa de Marfil
-* 🇵🇦 Panamá
-* 🇮🇶 Irak
-* 🇸🇪 Suecia
+* 🇸🇳 Senegal
+* 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia
+* 🇯🇴 Jordania
+* 🇨🇩 Congo RD
 
 ## Descripción
 

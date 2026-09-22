@@ -8,10 +8,10 @@
 
 ## Grupos asignados
 
-* 🇸🇳 Senegal
-* 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Escocia
-* 🇯🇴 Jordania
-* 🇨🇩 Congo RD
+* Senegal
+* Escocia
+* Jordania
+* Congo RD
 
 ## Descripción
 

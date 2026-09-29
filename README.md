@@ -4,7 +4,7 @@
 
 * Juan Manuel Castro
 * Juan Camilo Gomez 
-*
+* Luis Alejandro Monsalve
 
 ## Grupos asignados
 

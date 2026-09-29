@@ -12,6 +12,9 @@
 * Escocia
 * Jordania
 * Congo RD
+* Irán
+* Suecia
+* Curazao
 
 ## Descripción
 

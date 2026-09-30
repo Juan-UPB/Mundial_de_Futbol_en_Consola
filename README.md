@@ -18,7 +18,7 @@
 
 ## Descripción
 
-Este proyecto tiene como objetivo desarrollar un programa en Java relacionado con un Mundial de Fútbol, aplicando los conceptos de arreglos y matrices vistos en clase.
+Este proyecto tiene como objetivo desarrollar un programa en Java relacionado con un Mundial de Fútbol, aplicando los conceptos de arreglos y matrices vistos en clase. El programa permitirá organizar y mostrar información de diferentes países de una manera sencilla, utilizando un menú de opciones para facilitar la interacción con el usuario.
 
 ## Objetivos
 

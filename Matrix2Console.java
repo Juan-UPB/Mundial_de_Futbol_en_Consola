@@ -123,7 +123,7 @@ public class Matrix2Console {
 
             System.out.println("\n===== MATRIX 2 CONSOLE =====");
             System.out.println("1. Icono");
-            System.out.println("2. Pequeno");
+            System.out.println("2. Pequeño");
             System.out.println("3. Mediano");
             System.out.println("4. Grande");
             System.out.println("5. Salir");

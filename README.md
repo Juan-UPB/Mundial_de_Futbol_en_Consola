@@ -42,7 +42,7 @@ Se implementará la representación de las banderas de los cuatro países asigna
 
 ## Paso 2: Tabla de posiciones
 
-Se construirá una matriz con los 48 equipos del Mundial y sus estadísticas:
+Se construirá una matriz con los 48 equipos del Mundial y sus estadísticas, organizando la información de cada selección para poder consultarla y mostrarla de manera sencilla dentro del programa:
 
 **PJ, PG, PE, PP, GF, GC, DG, TA, TR y Pts.**
 

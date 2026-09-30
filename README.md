@@ -84,5 +84,10 @@ El programa permitirá consultar información de los países, como:
 3. Ejecutar el programa.
 4. Seguir las opciones del menú.
 
+## Presentación
+
+[Ver presentación](presentacion/Mundial_de_Fútbol.pdf)
+
+
 ## Conclusión
 El proyecto permitirá aplicar los conocimientos aprendidos sobre arreglos, matrices y estructuras de programación mediante el desarrollo de una aplicación de consola relacionada con un Mundial de Fútbol. Además, permitirá organizar información de diferentes países de una manera sencilla y facilitar la interacción del usuario con el programa.

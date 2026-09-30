@@ -3,7 +3,7 @@
 ## Integrantes
 
 * Juan Manuel Castro
-* Juan Camilo Gomez 
+* Juan Camilo Gomez
 * Luis Alejandro Monsalve
 
 ## Grupos asignados

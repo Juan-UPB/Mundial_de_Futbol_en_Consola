@@ -31,7 +31,7 @@ Este proyecto tiene como objetivo desarrollar un programa en Java relacionado co
 
 ### Descripción
 
-Se implementará la representación de las banderas de los cuatro países asignados utilizando matrices y diferentes factores de escala.
+Se implementará la representación de las banderas de los cuatro países asignados utilizando matrices y diferentes factores de escala. De esta manera, se podrá mostrar cada bandera en la consola y aplicar los conocimientos vistos en clase sobre el manejo de matrices.
 
 ### Tamaños
 

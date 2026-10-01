@@ -1,8 +1,8 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ProgramaPrincipal {
-
-
+    
     public static void main(String[] args) {
         Scanner tecladoMain = new Scanner(System.in);
         int opcionPrincipal = 0;
@@ -18,11 +18,9 @@ public class ProgramaPrincipal {
             System.out.println("==============================================");
             System.out.print("Seleccione una opción: ");
 
-            if (tecladoMain.hasNextInt()) {
-                opcionPrincipal = tecladoMain.nextInt();
-                tecladoMain.nextLine(); // Limpiar el buffer
-            } else {
-                tecladoMain.nextLine();
+            try {
+                opcionPrincipal = Integer.parseInt(tecladoMain.nextLine().trim());
+            } catch (NumberFormatException e) {
                 opcionPrincipal = 0;
             }
 
@@ -47,6 +45,7 @@ public class ProgramaPrincipal {
         tecladoMain.close();
     }
 }
+
 
 class Matrix2Console {
 
@@ -163,11 +162,9 @@ class Matrix2Console {
             System.out.println("5. Volver al Menú Principal");
             System.out.print("Seleccione una opcion: ");
 
-            if (teclado.hasNextInt()) {
-                opcion = teclado.nextInt();
-                teclado.nextLine();
-            } else {
-                teclado.nextLine();
+            try {
+                opcion = Integer.parseInt(teclado.nextLine().trim());
+            } catch (NumberFormatException e) {
                 opcion = 0;
             }
 
@@ -251,11 +248,9 @@ class InformacionPaises {
             System.out.println("================================");
 
             System.out.print("Seleccione un pais: ");
-            if (sc.hasNextInt()) {
-                opcion = sc.nextInt();
-                sc.nextLine();
-            } else {
-                sc.nextLine();
+            try {
+                opcion = Integer.parseInt(sc.nextLine().trim());
+            } catch (NumberFormatException e) {
                 opcion = 0;
             }
 
@@ -448,7 +443,7 @@ class TablaPosiciones {
                 System.out.print("Numero del equipo (1-48): ");
                 int equipo;
                 try {
-                    equipo = Integer.parseInt(sc.nextLine()) - 1;
+                    equipo = Integer.parseInt(sc.nextLine().trim()) - 1;
                 } catch (NumberFormatException e) {
                     System.out.println("Entrada inválida.");
                     continue;
@@ -475,7 +470,7 @@ class TablaPosiciones {
                 System.out.print("Numero de la columna: ");
                 int columna;
                 try {
-                    columna = Integer.parseInt(sc.nextLine()) - 1;
+                    columna = Integer.parseInt(sc.nextLine().trim()) - 1;
                 } catch (NumberFormatException e) {
                     System.out.println("Entrada inválida.");
                     continue;
@@ -494,7 +489,7 @@ class TablaPosiciones {
                 System.out.print("Nuevo valor: ");
                 int valor;
                 try {
-                    valor = Integer.parseInt(sc.nextLine());
+                    valor = Integer.parseInt(sc.nextLine().trim());
                 } catch (NumberFormatException e) {
                     System.out.println("Entrada inválida.");
                     continue;
@@ -506,15 +501,20 @@ class TablaPosiciones {
                 }
 
                 tabla[equipo][columna] = valor;
+
+                if (columna == 1 || columna == 2 || columna == 3) {
+                    tabla[equipo][0] = tabla[equipo][1] + tabla[equipo][2] + tabla[equipo][3];
+                }
+
                 tabla[equipo][6] = tabla[equipo][4] - tabla[equipo][5];
                 tabla[equipo][9] = tabla[equipo][1] * 3 + tabla[equipo][2];
 
-                System.out.println("Tabla actualizada correctamente.");
+                System.out.println("\nTabla actualizada correctamente.");
             } else if (!opcion.equals("X")) {
                 System.out.println("Opcion no valida.");
             }
         }
 
-        System.out.println("Volviendo al menú principal...");
+        System.out.println("\nVolviendo al menú principal...");
     }
 }
